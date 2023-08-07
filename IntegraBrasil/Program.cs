@@ -18,7 +18,7 @@ builder.Services.AddSingleton<IDDDService, DDDService>();
 builder.Services.AddAutoMapper(typeof(EnderecoMapper));
 builder.Services.AddAutoMapper(typeof(BancoMapper));
 builder.Services.AddAutoMapper(typeof(DDDMapper));
-
+ 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -10,5 +10,5 @@ public class BancoMapper : Profile
         CreateMap(typeof(GenericDTO<>), typeof(GenericDTO<>));
         CreateMap<BancoDTO, BancoModel>();
         CreateMap<BancoModel, BancoDTO>();
-    }
+    } 
 }

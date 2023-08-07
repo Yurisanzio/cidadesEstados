@@ -9,7 +9,6 @@ namespace IntegraBrasil.Controllers;
 public class BancoController : ControllerBase
 {
     private readonly IBancoServices _services;
-//. deploy teste....
     public BancoController(IBancoServices service)
     {
         _services = service;

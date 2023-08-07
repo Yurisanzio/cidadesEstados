@@ -21,4 +21,4 @@ public class EnderecoModel
 
     [JsonPropertyName("service")]
     public string? Servico { get; set; }
-}
+} 

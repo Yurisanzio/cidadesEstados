@@ -15,4 +15,4 @@ public class BancoModel
 
     [JsonPropertyName("fullName")]
     public string? NomeCompleto { get; set; }
-}
+} 

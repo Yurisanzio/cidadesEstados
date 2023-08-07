@@ -9,4 +9,4 @@ public interface IBrasilApiService
     Task<GenericDTO<List<BancoModel>>> BuscarTodosBancos();
     Task<GenericDTO<BancoModel>> BuscarBancoPorCodigo(int codigo);
     Task<GenericDTO<DDDModel>> BuscarEstadoCidadePorDDD(int ddd);
-}
+} 

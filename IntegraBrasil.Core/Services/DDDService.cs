@@ -16,7 +16,7 @@ public class DDDService : IDDDService
     }
 
     public async Task<GenericDTO<DDDDTO>> BuscarEstadoCidadeDDD(int ddd)
-    {
+    { 
         var EstadoCidadesDDD = await _brasilApiService.BuscarEstadoCidadePorDDD(ddd);
         return _mapper.Map<GenericDTO<DDDDTO>>(EstadoCidadesDDD);
     }

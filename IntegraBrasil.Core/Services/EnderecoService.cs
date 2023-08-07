@@ -21,5 +21,5 @@ public class EnderecoService : IEnderecoService
     {
         var endereco = await _brasilApiService.BuscarEnderecoPorCep(cep);
         return _mapper.Map<GenericDTO<EnderecoDTO>>(endereco);
-    }
+    } 
 }

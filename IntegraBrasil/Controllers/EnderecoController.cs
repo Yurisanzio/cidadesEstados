@@ -12,7 +12,7 @@ public class EnderecoController : ControllerBase
 
     public EnderecoController(IEnderecoService service)
     {
-        _Service = service;
+        _Service = service; 
     }
 
     [HttpGet("{cep}")]

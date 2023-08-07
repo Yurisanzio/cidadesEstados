@@ -9,4 +9,4 @@ public class BancoDTO
     public int? Codigo { get; set; }
     
     public string? NomeCompleto { get; set; }
-}
+} 

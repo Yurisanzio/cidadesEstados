@@ -10,7 +10,6 @@ public class DDDController : ControllerBase
 {
     private readonly IDDDService _service;
 
-
     public DDDController(IDDDService service)
     {
         _service = service;

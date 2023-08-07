@@ -12,4 +12,4 @@ public class EnderecoDTO
     
     [JsonIgnore]
     public string? Servico { get; set; }
-}
+} 

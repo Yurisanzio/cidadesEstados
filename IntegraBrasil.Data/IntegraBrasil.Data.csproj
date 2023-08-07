@@ -15,4 +15,4 @@
       <ProjectReference Include="..\IntegraBrasil.Shared\IntegraBrasil.Shared.csproj" />
     </ItemGroup>
 
-</Project>
+</Project> 

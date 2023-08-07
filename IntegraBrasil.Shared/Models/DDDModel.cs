@@ -9,4 +9,4 @@ public class DDDModel
     
     [JsonPropertyName("cities")] 
     public List<string>? Cities { get; set; }
-}
+} 

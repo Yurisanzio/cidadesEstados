@@ -16,7 +16,7 @@ public class BrasilApiService : IBrasilApiService
         var httpResponseMessage = await client.SendAsync(request);
         var responseObject = await httpResponseMessage.Content.ReadAsStringAsync();
         var deserializeJson = JsonSerializer.Deserialize<EnderecoModel>(responseObject);
-
+ 
         if (httpResponseMessage.IsSuccessStatusCode)
         {
             response.CodigoHttp = httpResponseMessage.StatusCode;

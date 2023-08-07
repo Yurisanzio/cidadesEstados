@@ -7,6 +7,7 @@ namespace IntegraBrasil.Core.Services;
 public class BancoServices : IBancoServices
 {
     private readonly IMapper _mapper;
+    
     private readonly IBrasilApiService _brasilApiService;
 
     public BancoServices(IMapper mapper, IBrasilApiService brasilApiService)
